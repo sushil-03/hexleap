@@ -4,7 +4,7 @@ import SportCard from "./SportCard";
 import { SportCardType } from "@/types.dt";
 const Sports = () => {
   return (
-    <div className="">
+    <React.Fragment>
       <span className=" text-2xl font-semibold pb-1 border-b-2 border-[#738FFF] font-popps ml-2">
         Sports
       </span>
@@ -20,7 +20,7 @@ const Sports = () => {
           </button>
         </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 

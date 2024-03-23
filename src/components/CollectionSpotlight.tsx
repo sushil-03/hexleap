@@ -58,7 +58,7 @@ const CollectionSpotlight = () => {
             <FaChevronLeft className=" text-brandBlue   text-xl" />
           </button>
           <div
-            className="flex justify-between items-center  md:min-w-[30rem] sm:min-w-[15rem] min-w-[10rem] overflow-x-scroll gap-5 "
+            className="flex justify-between items-center  md:min-w-[30rem] sm:min-w-[15rem] min-w-[10rem] overflow-x-scroll sm:gap-5  gap-2"
             id="spotlight"
           >
             {spotlights.map((spotlight: SpotlightType, index) => {

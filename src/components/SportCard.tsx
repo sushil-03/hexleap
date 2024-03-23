@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import React from "react";
 import { SportCardType } from "@/types.dt";
 import Image from "next/image";
 
