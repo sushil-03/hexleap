@@ -10,7 +10,7 @@ const SpotlightCard = ({ spotlight }: { spotlight: SpotlightType }) => {
     >
       <CardSVG className="absolute inset-0  " />
       <div className="z-50">
-        <div className="h-[29rem] w-[19rem]   relative -left-[27px] -top-2">
+        <div className="h-[29rem] w-[18rem]   relative md:-left-[20px] -left-[27px] -top-2">
           <Image src={spotlight.img} alt={spotlight.heading} fill />
         </div>
         <div className=" -mt-2 flex items-center flex-col font-popps gap-2 px-2">

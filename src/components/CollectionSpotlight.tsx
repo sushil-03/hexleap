@@ -50,9 +50,9 @@ const CollectionSpotlight = () => {
             experience. Grab yours today!
           </p>
         </div>
-        <div className="flex justify-between items-center gap-5">
+        <div className="flex justify-between items-center sm:gap-5 gap-1">
           <button
-            className="py-2 px-1 border-brandBlue border cursor-pointer"
+            className="md:py-2 py-1 md:px-1 px-0 border-brandBlue border cursor-pointer"
             onClick={() => handleBackWardScroll()}
           >
             <FaChevronLeft className=" text-brandBlue   text-xl" />
@@ -66,7 +66,7 @@ const CollectionSpotlight = () => {
             })}
           </div>
           <button
-            className="py-2 px-1 border-brandBlue border"
+            className="md:py-2 py-1 md:px-1 px-0 border-brandBlue border"
             onClick={() => handleForwardScroll()}
           >
             <FaChevronRight className=" text-brandBlue   text-xl" />
